@@ -1,0 +1,11 @@
+Cantidad de sujetos en el espectro:
+15
+Cantidad de Niños:
+23
+Cantidad de Jovenes:
+31
+Cantidad de Adultos:
+7
+Cantidad de Mayores:
+2
+

@@ -1,0 +1,86 @@
+Descriptción de las funciones en esta carpeta.
+
+Para el funcionamiento de estas funciones se necesitan los datos, que estan guardados en la carpeta 'datos'
+y además se necesita la carpeta 'resultados', donde se guardan los datos analizados por las rutinas.
+
+Test.
+
+Realiza los test tipo T-test. En esta rutina se analiza la hipótesis nula que describe las respuestas
+de cada jugador como datos en una gaussiana de media 0.
+
+	Funciones: 
+
+		 - t_test_total(directorio1,directorio2,name,cant,edad,sexo,pob,alfa,media)
+				Juntando todos los errores cometidos por el sujeto, analiza
+				si la media de sus respuestas es o no significativamente
+				diferente de cero.
+				IMPORTANTE: No se agrega ninguna hipótesis sobre la varianza.
+				Devuelve un archivo con los nombres de los jugadores y 
+				el p-valor para la aceptación de hipótesis.
+
+		  - t_test_angulos(directorio1,directorio2,name,cant,edad,sexo,pob,alfa,media)
+				Discriminando los errores cometidos en cada ángulo, analiza si
+				su media es o no significativamente distinta de cero.
+				IMPORTANTE: No se agrega ninguna hipótesis sobre la varianza.
+				Devuelve un archivo con los nombres de los jugadores y 
+				el p-valor para la aceptación de hipótesis.
+
+	El programa general devuelve por pantalla la cantidad de suejtos que aceptan la
+	la hipótesis nula con ambas estrategias (total y angular).
+
+Pereza.
+
+Calcula la pereza de cada jugador, a partir del ajuste de una función lineal a sus datos. 
+El programa devuelve una lista con dos datos: pereza (pendiente de la recta ajustada) y b
+(ordenada al origen).
+
+Cuenta_jugadores:
+
+Dado un archivo con nombre de jugadores pertenecientes a diferentes grupos devuelve por pantalla
+la cantidad de jugadores correspondientes a cada grupo.
+Es importante para este programa, que el archivo con el nombre de los jugadores presente los
+datos en el orden indicado por la misma función. De todos modos, eso puede modificarse.
+
+Chi.
+
+Consiste en una serie de pruebas con difetentes propuestas para calcular el Chi2 de cada sujeto.
+Las diferentes propuestas rondan alrededor de la mejor manera de elegir, para hacer el cálculo,
+la varianza constante.
+En esta instancia, se prueba la hipótesis nula de que todas las respuestas provienen de una
+gaussiana de media 0, y ahora se agrega la hiótesis de que la varianza es constante.
+Se utilizan tres posibilidades para chi2.
+
+	- Definición standar de Chi2. Es decir, la varianza como función del ángulo.
+	- Utilizando los datos de todos los errores cometidos por un jugador, en todos los triasl
+	y calculando la varianza total de estos errores.
+	- Calculando la varianza de los errores por ángulo y promediando todas estas.
+
+A partir de este análisis, y con los datos simulados de la carpeta 'Datos simulados', se llegó a la
+conclusión de que el valor de varianza óptimo es aquel que proviene de promediar la varianza
+de cada ángulo.
+
+Chi2.
+
+Programa principal para testear las diferentes estrategias.
+En la carpeta donde se encuenta el ejecutable tiene que estar el archivo 'jugadores'.
+
+Funciones_generales.
+
+Cuenta con una serie de funciones necesarias para ejecutar el programa Chi2 con las diferetnes estrategias.
+
+	Funciones:
+
+		- xatheta(v)-> Toma una variable en pixel del juego, y devuelve su valor en ángulo.
+		- erroratheta(v)-> Toma el error en pixel del juego, y devuelve su valor en ángulo.
+		- thetaax(v)->Toma un ángulo y devuelve su valor en pixeles en la barra de juegos.
+		- creador_theta(array1,array2)-> toma dos arreglos, cuyos elementos son las componentes
+		de un vector, y devuelve una lista cuyos elementos son los ángulos de los vectores.
+		- present()->Necesita el archivo 'presentados'
+
+Hip_nula:
+
+Función que realiza un test de tipo chi2 para analizar la estrategia fotográfica con y sin pereza.
+Necesita la carpeta 'datos' y 'resultados'. 
+Toma como argumentos datos de los jugadores.
+Devuelve dos archivos. Uno de ellos con el p-valor para cada jugador,
+		

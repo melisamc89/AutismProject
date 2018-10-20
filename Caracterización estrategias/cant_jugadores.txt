@@ -1,0 +1,131 @@
+Cantidad total de sujetos.
+
+
+Espectro:
+15
+Cantidad de Niños:
+23
+Cantidad de Jovenes:
+31
+Cantidad de Adultos:
+7
+Cantidad de Mayores:
+2
+
+Cantidad de H0 aceptadas:
+
+Espectro:
+5
+Cantidad de Niños:
+4
+Cantidad de Jovenes:
+13
+Cantidad de Adultos:
+4
+Cantidad de Mayores:
+0
+
+26
+
+Cantidad de H0+pereza aceptadas:
+
+Espectro:
+13
+Cantidad de Niños:
+14
+Cantidad de Jovenes:
+23
+Cantidad de Adultos:
+4
+Cantidad de Mayores:
+0
+
+54
+
+
+Cantidad de Figura Mayor aceptadas:
+
+Espectro:
+15
+Cantidad de Niños:
+21
+Cantidad de Jovenes:
+31
+Cantidad de Adultos:
+7
+Cantidad de Mayores:
+2
+
+76
+
+Cantidad de Figura Mayor+pereza aceptadas:
+
+Espectro:
+15
+Cantidad de Niños:
+23
+Cantidad de Jovenes:
+31
+Cantidad de Adultos:
+7
+Cantidad de Mayores:
+2
+
+78
+
+
+
+flopi
+flopi
+flopi
+Sin restar pereza:
+26
+restando pereza:
+54
+Estrategia figura mayor:
+76
+Estrategia figura mayor_pereza:
+78
+Estrategia figura estrella:
+78
+Estrategia figura estrella_pereza:
+78
+Estrategia figura cuadrado:
+77
+Estrategia figura cuadrado_pereza:
+78
+Estrategia figura circulo:
+77
+Estrategia figura circulo_pereza:
+78
+Estrategia figura triangulo:
+77
+Estrategia figura triangulo_pereza:
+78
+
+
+Estratefia dosfig:
+
+Cantidad de sujetos en el espectro:
+11
+Cantidad de Niños:
+13
+Cantidad de Jovenes:
+9
+Cantidad de Adultos:
+1
+Cantidad de Mayores:
+1
+
+Estrategia dosfig con pereza:
+
+Cantidad de sujetos en el espectro:
+11
+Cantidad de Niños:
+16
+Cantidad de Jovenes:
+8
+Cantidad de Adultos:
+1
+Cantidad de Mayores:
+1

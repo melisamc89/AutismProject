@@ -1,0 +1,11 @@
+
+Cantidad de H(0) aceptadas en test angulares:
+	786
+
+de 81 jugadores (810 test)
+
+
+Cantidad de H(0) aceptadas en test total:
+	73
+
+de 81 jugadores (81 test)
